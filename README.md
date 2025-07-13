@@ -38,7 +38,8 @@ First, I designed a Power Apps form with fields like Member Name, Loan Type, Loa
 
 🗂️ SharePoint Integration
 Each time the form is submitted, the data is securely saved in a SharePoint list called LoanApplications, which acts as the backend database.
-
+ ![SharePoint Screenshot](Sharepoint.png)
+ 
 📧 Power Automate Notification
 Immediately after submission, a Power Automate flow is triggered that sends an automated email notification to the loan officer with the applicant’s details. This keeps the process transparent and responsive.
 
