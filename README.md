@@ -33,7 +33,7 @@ What makes this project unique is that I researched real user pain points on Red
 ## 📸 Demo and Screenshots 
 🖼️ Power Apps Form
 First, I designed a Power Apps form with fields like Member Name, Loan Type, Loan Status, and Notes. It also auto-generates a unique Application ID and captures the submission time.
-🎥 Demo Video: [Watch here](https://www.loom.com/share/a64b2b03b9ea4af8ac4a5ad07d4d5136?sid=9669bd45-ae43-43f8-a2bd-d6a894272221)
+ - 🎥 Demo Video: [Watch here](https://www.loom.com/share/a64b2b03b9ea4af8ac4a5ad07d4d5136?sid=9669bd45-ae43-43f8-a2bd-d6a894272221)
 
 
 🗂️ SharePoint Integration
