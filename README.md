@@ -3,6 +3,8 @@
 
 A modern low-code app built with Microsoft Power Platform to track, submit, and monitor loan applications securely using SharePoint, Power Automate, and Azure DevOps.
 
+What makes this project unique is that I researched real user pain points on Reddit, where some Credit Union customers discussed delays, lack of transparency, and slow communication. I designed this solution specifically to address those complaints with a more responsive and secure loan tracking process.
+
 ---
 
 ## 🚀 Features
@@ -28,11 +30,20 @@ A modern low-code app built with Microsoft Power Platform to track, submit, and 
 
 ---
 
-## 📸 Screenshots
+## 📸 Demo and Screenshots 
+🖼️ Power Apps Form
+First, I designed a Power Apps form with fields like Member Name, Loan Type, Loan Status, and Notes. It also auto-generates a unique Application ID and captures the submission time.
+🎥 Demo Video: [Watch here](https://www.loom.com/share/a64b2b03b9ea4af8ac4a5ad07d4d5136?sid=9669bd45-ae43-43f8-a2bd-d6a894272221)
 
-| Power Apps UI | SharePoint List | Azure DevOps Board |
-|---------------|-----------------|---------------------|
-| ![Form](screenshots/powerapps_ui.png) | ![List](screenshots/sharepoint_list.png) | ![Board](screenshots/devops_board.png) |
+
+🗂️ SharePoint Integration
+Each time the form is submitted, the data is securely saved in a SharePoint list called LoanApplications, which acts as the backend database.
+
+📧 Power Automate Notification
+Immediately after submission, a Power Automate flow is triggered that sends an automated email notification to the loan officer with the applicant’s details. This keeps the process transparent and responsive.
+
+🔄 Azure DevOps Agile Process
+To manage the development of this project, I used Azure DevOps with Agile methodology. I broke the work down into user stories and tracked tasks across sprints using a Kanban board with statuses like “To Do,” “Doing,” and “Done.”
 
 ---
 
@@ -45,11 +56,6 @@ A modern low-code app built with Microsoft Power Platform to track, submit, and 
 - (Optional) Connected Power BI to SharePoint for analytics
 
 ---
-
-## 📹 Demo
-
-demo_video.mp4
-
 
 
 ## 📁 Folder Structure
